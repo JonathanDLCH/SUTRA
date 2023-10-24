@@ -1,0 +1,61 @@
+:root{
+    --primary-Sutra-Color: #0B2E5D;
+    --secdondary-Sutra-Color: #606062;
+}
+
+body{
+    background-color: var(--primary-Sutra-Color);
+}
+
+em{
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--secdondary-Sutra-Color);
+}
+
+a>img{
+    width: 2em;
+    height: 2em;
+}
+
+.bg-header{
+    background: url(../img/BG.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg-white{
+    width: 100%;
+    background: whitesmoke;
+}
+
+.card{
+    box-shadow: 5px 5px 10px;
+}
+
+.card div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card div > img{
+    width: 30%;
+}
+
+.card div > ul{
+    align-self: center;
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+.icon-sm{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
