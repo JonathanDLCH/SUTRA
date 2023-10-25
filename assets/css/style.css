@@ -12,7 +12,8 @@ em{
 }
 
 footer{
-    background-color: var(--secdondary-Sutra-Color);
+    background-color: var(--primary-Sutra-Color);
+    border-top: 1.5em solid var(--secdondary-Sutra-Color);
 }
 
 a>img{
@@ -25,6 +26,14 @@ a>img{
     background-size: 100% auto;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+.bg-SAuto{
+    background: url(../img/versa-1.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
 }
 
 .bg-white{
@@ -58,4 +67,8 @@ a>img{
     text-decoration: none;
     color: white;
     font-size: 2em;
+}
+
+.card-news{
+    display: block;
 }
