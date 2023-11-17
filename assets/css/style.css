@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;1,100;1,400&display=swap');
+
 :root{
     --primary-Sutra-Color: #0B2E5D;
     --secdondary-Sutra-Color: #606062;
@@ -5,6 +7,7 @@
 
 body{
     background-color: var(--primary-Sutra-Color);
+    font-family: 'Montserrat', sans-serif;
 }
 
 em{
@@ -52,6 +55,7 @@ a>img{
 
 .card div > img{
     width: 30%;
+    border-radius: 1em;
 }
 
 .card div > ul{
@@ -72,3 +76,63 @@ a>img{
 .card-news{
     display: block;
 }
+
+#SSP img{
+    height: 300px;
+}
+
+/*Media Queries Responsive*/
+
+@media only screen and (max-width: 767px) {
+    article{
+        padding: 5px !important;
+        margin: 0px !important;
+    }
+
+    .w-75,.w-50{
+        width: 100% !important;
+    }
+
+    .m-auto{
+        margin: 0 !important;
+    }
+
+    .bg-header{
+        background: url(../img/Caseta.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    header > div {
+        padding: 5px !important;
+        margin: 0px !important;
+        width: 100% !important;
+    }
+
+    header div section{
+        line-height: 0.95;
+    }
+
+    div iframe{
+        width: 80%;
+        height: 150px;
+    }
+
+    footer{
+        flex-wrap: wrap;
+    }
+
+    .card div > img{
+        width: 100%;
+    }
+
+    .vr{
+        display: none !important;
+    }
+
+    #SSP img{
+        height: 100px;
+    }
+}
+
